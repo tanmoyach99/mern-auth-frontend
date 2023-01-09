@@ -1,0 +1,98 @@
+.login-page {
+    max-width: 500px;
+    margin: auto;
+    color: #444;
+    padding: 0 15px;
+}
+
+.login-page h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0 20px;
+    letter-spacing: 1.5px;
+}
+
+.login-page label {
+    display: block;
+
+}
+
+.login-page input {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    border: 2px solid #777;
+    outline: none;
+    padding: 0 10px;
+}
+
+.login-page .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start
+}
+
+.login-page .row a {
+    color: crimson;
+}
+
+.login-page .row button {
+    width: 150px;
+    padding: 10px 0;
+    color: white;
+    background: black;
+    text-transform: uppercase
+}
+
+.forgot h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    margin: 50px 0;
+    letter-spacing: 1.3px;
+}
+
+.forgot .row {
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+
+}
+
+.forgot .row input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+.forgot .row button {
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 15px 10px
+}
+
+.hr {
+    margin-top: 15px;
+    background: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    color: crimson
+}
+
+.social button,
+.social .google {
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px red
+}
